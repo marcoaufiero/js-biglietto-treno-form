@@ -45,6 +45,8 @@ function displayTicket(){
     
     let finalPrice = parseFloat(ticketPrice - ticketDiscount).toFixed(2);
     
+    document.getElementById('details').innerHTML = `DETTAGLI PASSEGGERO`;
+
     document.getElementById('passengerTitle').innerHTML = `NOME PASSEGGERO`;
     document.getElementById('passengerName').innerHTML = `${userName}`;
 

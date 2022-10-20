@@ -1,0 +1,21 @@
+body{
+    background-color: #B91450 !important;
+    height: 100vh;
+}
+
+label{
+    display: block;
+    font-weight: 600;
+    color: #B91450;
+}
+
+input, select{
+    width: 70%;
+    height: 30px;
+    border: 2px solid #B91450;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

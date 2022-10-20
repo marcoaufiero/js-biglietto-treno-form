@@ -10,7 +10,7 @@
 </head>
 <body>
     
-    <h1 class="text-center text-white py-3">CALCOLA IL PREZZO DEL BIGLIETTO</h1>
+    <h1 class="text-center text-white pt-5 pb-3">CALCOLA IL PREZZO DEL BIGLIETTO</h1>
 
     <div class="container bg-light rounded-4 shadow">
         
@@ -56,37 +56,37 @@
     
 
 
-    <h2 class="text-center text-white py-5">IL TUO BIGLIETTO</h2> 
+    <h2 id="yourTicket" class="text-center text-white py-5"></h2> 
     
-    <div>
+    <div id="ticket" class="container bg-light shadow d-none p-5">
 
         <h3 id="details"></h3>
 
-        <div>
+        <div class="row border border-2">
             
-            <div>
-                <div id="passengerTitle"></div>
-                <div id="passengerName"></div>
+            <div class="ms-bg-grey col-2">
+                <div class="ticket-title pt-3 pb-3" id="passengerTitle"></div>
+                <div class="pb-2 ticket-value" id="passengerName"></div>
             </div>
 
-            <div>
-                <div id="offerTitle"></div>
-                <div id="ticketType"></div>
+            <div class="col-2">
+                <div class="ticket-title pt-3 pb-5" id="offerTitle"></div>
+                <div class="pb-2 ticket-value" id="ticketType"></div>
             </div>
 
-            <div>
-                <div id="wagonTitle"></div>
-                <div id="wagonNumber"></div>
+            <div class="col-2">
+                <div class="ticket-title pt-3 pb-5" id="wagonTitle"></div>
+                <div class="pb-2 ticket-value" id="wagonNumber"></div>
             </div>
 
-            <div>
-                <div id="cpTitle"></div>
-                <div id="cpNumber"></div>
+            <div class="col-2">
+                <div class="ticket-title pt-3 pb-5" id="cpTitle"></div>
+                <div class="pb-2 ticket-value" id="cpNumber"></div>
             </div>
 
-            <div>
-                <div id="priceTitle"></div>
-                <div id="displayTicket"></div>
+            <div class="col-2">
+                <div class="ticket-title pt-3 pb-5" id="priceTitle"></div>
+                <div class="pb-2 ticket-value" id="displayTicket"></div>
             </div>
             
         

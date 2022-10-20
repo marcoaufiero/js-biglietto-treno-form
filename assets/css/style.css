@@ -11,7 +11,7 @@ label{
 
 input, select{
     width: 70%;
-    height: 30px;
+    height: 40px;
     border: 2px solid #B91450;
 }
 
@@ -19,3 +19,17 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.ticket-title{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.ticket-value{
+    font-weight: 600;
+}
+
+.ms-bg-grey{
+    background-color: grey;
+}
+

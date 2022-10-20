@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <form action="">
+    <form>
 
         <label for="inputName">Nome Cognome</label>
         <input type="text" id="inputName">
@@ -26,7 +26,13 @@
 
         <button onclick="displayTicket(); return false">Genera Biglietto</button>
 
+        <button onclick="return true">Annulla</button>
+
     </form>
+
+    <div id="ticketDiscountDisplay">
+
+    </div>
 
     <div id="displayTicket">
 

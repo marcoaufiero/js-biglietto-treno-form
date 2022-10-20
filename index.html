@@ -9,6 +9,8 @@
 </head>
 <body>
     
+    <h1>CALCOLA IL PREZZO DEL BIGLIETTO</h1>
+
     <form>
 
         <label for="inputName">Nome Cognome</label>
@@ -18,6 +20,7 @@
         <input type="number" id="inputKm">
 
         <label for="inputAge"></label>
+        
         <select id="inputAge">
             <option value="1">Minorenne</option>
             <option value="2">Maggiorenne</option>
@@ -26,19 +29,24 @@
 
         <button onclick="displayTicket(); return false">Genera Biglietto</button>
 
-        <button onclick="return true">Annulla</button>
+        <button><a href="">Annulla</a></button>
 
     </form>
 
-    <div id="ticketDiscountDisplay">
+
+    <h2>IL TUO BIGLIETTO</h2> 
+    
+    <div>
+
+        <h3>DETTAGLI PASSEGGERO</h3>
+
+    
+        <div id="displayTicket">
+    
+        </div>
 
     </div>
-
-    <div id="displayTicket">
-
-
-
-    </div>
+    
 
 
     <script type="text/javascript" src="./assets/js/main.js"></script>
